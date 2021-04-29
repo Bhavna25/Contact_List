@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  background: rgb(165, 105, 224) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.2em;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.username {
+  color: white !important;
+}
+
+.email {
+  font-style: italic;
+  color: #ccc !important;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.button-submit {
+  background: rebeccapurple !important;
+  margin: 1em !important;
+  color: white !important;
+}
+
+.button-clear {
+  background: rgb(63, 63, 49) !important;
+  margin: 1em !important;
+  color: white !important;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.searchBox {
+  margin-left: 22vw;
+  text-align: center;
+  width: 15vw;
+  min-width: 200px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+}
+
+.searchBox input {
+  margin-top: 8px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
